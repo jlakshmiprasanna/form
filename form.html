@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+    <form>
+        <h2>Registration form</h2>
+        <div class="Container">
+            <label for="Name"name>Name</label>
+            <input type="text"name="name" placeholder="enter name"required>
+            <label for="email">E-mail</label>
+            <input type="email"name="email" placeholder="Enter current email"required>
+            <label for="password">Password</label>
+            <input type="text"name=password" placeholder="Enter Password"required>
+            <label for="phone number">Phone number</label>
+            <input type="tel"name= "phone number" placeholder="your number" required>
+            <label for="gender">Gender</label>
+            <select id="Gender" placeholder="select" required>
+                <option value="Male" name="male">Male</option>
+                <option value="Female" name="female">Female</option>
+                <option value="Others" name="Others">Others</option>
+            </select>
+            <label for="Zip code">Zipcode</label>
+            <input type="text"name="Zipcode" placeholder="enter Zipcode"required>
+            <label for="SIET">SIET</label>
+            <select id="Branch" area-placeholder="select"required>
+                <option value="ECE" name="ECE">ECE</option>
+                <option value="CSE" name="CSE">CSE</option>
+                <option value="MECH" name="ECE">MECH</option>
+                <option value="EEE" name="ECE">EEE</option>
+            </select>
+            <label for="about">About</label>
+            <input type="text area" name="text area" placeholder="Description" required>
+            <div class="button">
+                <input type="Submit" name="Reister"required>
+    </div>
+    </form>
+</body>
+</html>
